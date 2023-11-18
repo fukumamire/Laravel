@@ -5,19 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>COACHTECH</title>
 </head>
 
 <body>
-  <h1>ブラウザに画面を表示できた！</h1>
-  <p><?php echo $content ?? '' ?></p>
 
-  <table>
-        <tr>
-            <th>パスパラメータ</th>
-            <td><?php echo $param ?></td>
-        </tr>
-    </table>
+  <h1>{{$content}}</h1>
+
+
 </body>
 
 </html>
